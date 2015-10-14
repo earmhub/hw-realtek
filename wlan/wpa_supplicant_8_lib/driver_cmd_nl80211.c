@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012-2014 Freescale Semiconductor, Inc.
+ * Copyright (C) 2012-2015 Freescale Semiconductor, Inc.
  * Driver interaction with extended Linux CFG8021
  *
  * This program is free software; you can redistribute it and/or modify
@@ -12,7 +12,7 @@
  */
 
 #include <sys/cdefs.h>
-#include "hardware_legacy/driver_nl80211.h"
+#include "driver_nl80211.h"
 #include "wpa_supplicant_i.h"
 #include "config.h"
 #ifdef ANDROID
